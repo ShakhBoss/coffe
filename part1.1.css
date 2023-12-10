@@ -1,0 +1,350 @@
+html {
+                box-sizing: border-box;
+}
+
+*:before,
+*:after {
+                box-sizing: inherit;
+}
+
+body {
+                margin: 0;
+                padding: 0;
+                background: #e1d4c9;
+}
+
+li,
+a {
+                position: relative;
+                font-family: 'Inter', sans-serif;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 150%;
+                color: #2d2d2d;
+                text-decoration: none;
+                padding: 0 10px;
+
+}
+
+header {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 20px 40px;
+}
+
+.logo {
+                cursor: pointer;
+}
+
+.nav {
+                list-style: none;
+}
+
+li {
+                display: inline-block;
+                padding: 0 20px;
+}
+
+
+a:after {
+                content: "";
+                position: absolute;
+                background-color: #2d2d2d;
+                height: 2.5px;
+                width: 0%;
+                left: 50%;
+                bottom: -10px;
+                transform: translateX(-50%);
+                transition: 0.5s;
+}
+
+a:hover:after {
+                width: 100%;
+
+}
+
+.logo1 {
+                width: 20px;
+                height: 20px;
+}
+
+.last {
+                display: flex;
+                max-width: 1360px;
+                padding: 100px;
+                justify-content: center;
+                align-items: center;
+                gap: 100px;
+                align-self: stretch;
+                background: #665f55;
+                border-radius: 40px;
+                margin: 40px;
+}
+
+.lasth2 {
+                font-family: 'inter';
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 125%;
+                color: #e1d4c9;
+                width: 530px;
+                padding: 0;
+                margin: 0;
+}
+
+.times {
+                font-style: italic;
+                color: #b0907a;
+}
+
+.three {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                padding: 0;
+                margin: 0;
+}
+
+.lastb {
+                display: flex;
+                gap: 12px;
+}
+
+.bl {
+                display: flex;
+                width: 60px;
+                height: 60px;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #c1b6ad;
+                border-radius: 100px;
+                background: #665f55;
+
+}
+
+.bl:hover {
+                background: #e1d4c9;
+                color: #403f3d;
+
+}
+
+.contact {
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                padding: 0;
+                margin: 0;
+
+}
+
+.lastlink {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                padding: 0;
+                margin: 0;
+
+}
+
+.lasth3 {
+                font-family: 'inter';
+                font-size: 24px;
+                font-weight: 600;
+                font-style: normal;
+                line-height: 125%;
+                color: #e1d4c9;
+                padding: 0;
+                margin: 0;
+}
+
+.lasta {
+                font-family: 'inter';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%;
+                color: #e1d4c9;
+                padding: 0;
+                margin: 0;
+}
+
+.lasta:after {
+                content: "";
+                position: absolute;
+                background-color: #e1d4c9;
+                height: 2.5px;
+                width: 0%;
+                left: 50%;
+                bottom: -10px;
+                transform: translateX(-50%);
+                transition: 0.5s;
+}
+
+.lasta:hover {
+                width: 100%;
+}
+
+.lastp {
+                font-family: 'inter';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%;
+                color: #e1d4c9;
+                padding: 0;
+                margin: 0;
+}
+
+.coffee {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+                align-self: stretch;
+                padding: 0;
+                margin: 20px 40px 40px 40px;
+}
+
+.cofh21 {
+                width: 800px;
+                color: #403f3d;
+                text-align: center;
+                font-family: 'inter';
+                font-size: 60px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 125%;
+                padding: 0;
+                margin: 0;
+}
+
+.sp1 {
+                font-style: italic;
+                color: #b0907a;
+}
+
+.tab {
+                display: flex;
+                gap: 16px;
+}
+
+.cf {
+                display: flex;
+                padding: 8px 16px 8px 8px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                border: 1px solid #c1b6ad;
+                border-radius: 100px;
+                font-family: 'inter';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%;
+}
+
+.sf {
+                display: flex;
+                padding: 3px 7px;
+                justify-content: center;
+                align-items: center;
+                border-radius: 100px;
+                background: #c1b6ad;
+}
+
+.cf1 {
+                display: flex;
+                padding: 8px 16px 8px 8px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                border: 1px solid #c1b6ad;
+                border-radius: 100px;
+                font-family: 'inter';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 150%;
+                background: #665f55;
+                color: #e1d4c9;
+}
+
+.img-container1 {
+                display: flex;
+                
+                justify-content: center; 
+                align-items: flex-start;
+                align-content: flex-start;
+                gap: 40px;
+                flex-wrap: wrap;
+                padding: 0;
+                margin: 40px 0px 100px 0px;
+                align-self: stretch;
+}
+
+.plan {
+                display: flex;
+                height: 506px;
+                width: 310px;
+                flex-direction: column;
+                align-items: center;
+                border: 1px solid #c1b6ad;
+                border-radius: 40px;
+                margin: 0;
+                padding: 0;
+}
+
+.img1 {
+                width: 310px;
+                height: 310px;
+                flex-shrink: 0;
+                border-radius: 40px;
+                padding: 0;
+                margin-bottom: 0;
+
+
+}
+
+.prop {
+                width: 270px;
+                color: #403f3d;
+                font-family: 'inter';
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 150%;
+                padding: 0 0 0 0;
+                margin: 0;
+                align-self: stretch;
+                margin-left: 20px;
+                height: 48;
+
+}
+
+.cost {
+                align-self: stretch;
+                color: #403f3d;
+                font-family: 'inter';
+                font-size: 24px;
+                font-weight: 600;
+                font-style: normal;
+                line-height: 125%;
+                padding: 0;
+                margin-left: 20px;
+                }
+
+.namec {
+                align-self: stretch;
+                color: #403f3d;
+                font-family: 'inter';
+                font-size: 24px;
+                font-weight: 600;
+                font-style: normal;
+                line-height: 125%;
+                padding: 0;
+                margin-bottom: 12px;
+                margin-left: 20px;
+}
+
