@@ -1,1 +1,1 @@
-# [Coffee-house](https://ShakhBoss.github.io/rsschool-cv/)
+# [Coffee-house](https://ShakhBoss.github.io/coffe/)
