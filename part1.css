@@ -253,7 +253,7 @@ width: 100%;
        border-radius: 20px;
        background-size: cover;
        transition: all 1.1s;
-       background-image: url(./logo/about-1.png);
+       background-image: url('./logo/about-1.png');
 }
 
 .about:hover .Ab1{
