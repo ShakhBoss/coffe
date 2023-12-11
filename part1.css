@@ -68,7 +68,7 @@ width: 100%;
                 justify-content: center;
                 align-items: flex-start;
                 align-self: stretch; 
-                background: url('/logo/photo_2023-12-06_19-58-32.jpg'), lightgray 50% / cover no-repeat;
+                background: url('./logo/photo_2023-12-06_19-58-32.jpg'), lightgray 50% / cover no-repeat;
                 border-radius: 40px;
                 background-repeat: round; 
              
@@ -253,7 +253,7 @@ width: 100%;
        border-radius: 20px;
        background-size: cover;
        transition: all 1.1s;
-       background-image: url(/logo/about-1.png);
+       background-image: url(./logo/about-1.png);
 }
 
 .about:hover .Ab1{
