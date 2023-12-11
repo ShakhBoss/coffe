@@ -68,7 +68,7 @@ width: 100%;
                 justify-content: center;
                 align-items: flex-start;
                 align-self: stretch; 
-                background: url('./logo/photo_2023-12-06_19-58-32.jpg'), lightgray 50% / cover no-repeat;
+                background: url('./logo/photo_2023-12-06_19-58-32.jpg');
                 border-radius: 40px;
                 background-repeat: round; 
              
